@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "next": "^14.0.0",
@@ -22,7 +23,8 @@
     "@types/uuid": "^9.0.0",
     "typescript": "^5.0.0",
     "eslint": "^8.0.0",
-    "eslint-config-next": "^14.0.0"
+    "eslint-config-next": "^14.0.0",
+    "vercel": "^33.0.0"
   },
   "keywords": ["temporary-mail", "email", "nextjs", "react"],
   "author": "Your Name",
