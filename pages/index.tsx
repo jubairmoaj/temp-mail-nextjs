@@ -208,6 +208,12 @@ export default function Home() {
             <h1>TempMail</h1>
           </div>
           <p className="tagline">Disposable Email Addresses in One Click</p>
+          <div className="admin-link">
+            <a href="/admin-panel" className="btn btn-secondary">
+              <i className="fas fa-cog"></i>
+              Admin Panel
+            </a>
+          </div>
         </header>
 
         <main className="main-content">

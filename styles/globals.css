@@ -174,6 +174,20 @@ body {
     background: linear-gradient(135deg, #c0392b, #a93226);
 }
 
+.btn-warning {
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+    color: white;
+}
+
+.btn-warning:hover {
+    background: linear-gradient(135deg, #e67e22, #d35400);
+}
+
+.btn-sm {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
 /* Email Display */
 .email-display {
     background: #f8f9fa;

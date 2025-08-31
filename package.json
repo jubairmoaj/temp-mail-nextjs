@@ -11,6 +11,7 @@
     "deploy": "vercel --prod"
   },
   "dependencies": {
+    "mysql2": "^3.14.3",
     "next": "^14.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -21,12 +22,17 @@
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@types/uuid": "^9.0.0",
-    "typescript": "^5.0.0",
     "eslint": "^8.0.0",
     "eslint-config-next": "^14.0.0",
+    "typescript": "^5.0.0",
     "vercel": "^33.0.0"
   },
-  "keywords": ["temporary-mail", "email", "nextjs", "react"],
+  "keywords": [
+    "temporary-mail",
+    "email",
+    "nextjs",
+    "react"
+  ],
   "author": "Your Name",
   "license": "MIT"
 }
